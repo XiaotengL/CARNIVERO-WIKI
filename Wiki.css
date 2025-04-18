@@ -57,7 +57,7 @@ body{
 .Small_logo{
     position: fixed;
     top: 0px;
-    left: 600px;
+    left: 470px;
     opacity: 1;
 }
 
@@ -115,8 +115,8 @@ position: fixed;
 
 .Need_help_button{
     position:fixed;
-    top:790px;
-    right:40px;
+    top:650px;
+    right:20px;
 }
 
 .Close_button{
@@ -150,7 +150,7 @@ position: fixed;
 .Error_404{
     position: absolute;
     top: 150px;
-    left: 560px;
+    left: 440px;
 }
 
 .small_picture_text01{
@@ -193,5 +193,5 @@ position: fixed;
 .back_to_main_page{
     position:absolute;
     top:480px;
-    left:630px;
+    left:510px;
 }
