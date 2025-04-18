@@ -38,19 +38,19 @@ body{
     font-size: 50px;
     color: white;
     top: 325px;
-    left: 540px;
+    left: 410px;
 }
 
 .start_button{
     Position: absolute;
     top: 500px;
-    Left: 670px;
+    Left: 530px;
 }
 
 .logo{
     position: fixed;
     top: 0px;
-    left: 435px;
+    left: 300px;
     opacity: 1;
 }
 
