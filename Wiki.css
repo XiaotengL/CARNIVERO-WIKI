@@ -1,0 +1,197 @@
+* {
+    box-sizing: border-box;
+  }
+
+
+
+body{
+    margin: 0;
+}
+
+.row {
+  display: flex;
+  width:100%;
+  padding:10px;
+}
+
+
+  .column {
+  float: left;
+  width: 150%;
+  padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .background_image{
+    background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.background_image_text{
+    position: absolute;
+    font-size: 50px;
+    color: white;
+    top: 325px;
+    left: 540px;
+}
+
+.start_button{
+    Position: absolute;
+    top: 500px;
+    Left: 670px;
+}
+
+.logo{
+    position: fixed;
+    top: 0px;
+    left: 435px;
+    opacity: 1;
+}
+
+.Small_logo{
+    position: fixed;
+    top: 0px;
+    left: 600px;
+    opacity: 1;
+}
+
+.Plants{
+    position: fixed;
+    top:90px;
+    Left:200px;
+    font-size: 25px;
+}
+
+.Plant_care{
+    position:fixed;
+    font-size: 25px;
+    top:90px;
+    right:210px;
+}
+
+.Menu_bar{
+position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: white;
+    color: white;
+    opacity:0.5;
+    padding-left: 20px;
+    padding-right: 20px;
+    height:200px;
+    width:1440px;
+}
+
+.Small_Menu_Bar{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: white;
+    color: white;
+    Opacity: 1;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 85px;
+    width: 1680px;
+    opacity: 0.5;
+}
+
+.Contact_button{
+    position: absolute;
+    background-image: url(Contact_button.png);
+}
+
+.Menu_button01{
+    position: fixed;
+    top: 25px;
+    left: 25px;
+}
+
+.Need_help_button{
+    position:fixed;
+    top:790px;
+    right:40px;
+}
+
+.Close_button{
+    position: absolute;
+    background-image: url(Button.png);
+}
+
+.Message_button{
+    position: absolute;
+    background-image: url();
+}
+
+.WhiteMenu_button{
+    position: absolute;
+    background-image: url(Menu\(white\).png);
+}
+
+.BlackMenu_button{
+    position: absolute;
+    background-image: url(Menu\(black\).png);
+}
+
+.content_bar{
+    background-color:lightgreen;
+    padding-right: 20px;
+    padding-left: 20px;
+    height: 350px;
+    width: 1440px;
+}
+
+.Error_404{
+    position: absolute;
+    top: 150px;
+    left: 560px;
+}
+
+.small_picture_text01{
+    position: absolute;
+    font-size: 70px;
+    color: white;
+    top:925px;
+    left:120px;
+
+}
+
+.small_picture_text02{
+    position: absolute;
+    font-size: 70px;
+    color: white;
+    top:925px;
+    left:650px;
+
+}
+
+.small_picture_text03{
+    position: absolute;
+    font-size: 70px;
+    color: white;
+    top:925px;
+    left: 1100px;
+
+}
+
+.content_greenbar{
+    position: absolute;
+    background-color: lightgreen;
+    top: 600px;
+    padding-right: 20px;
+    padding-left: 20px;
+    height: 350px;
+    width: 1440px;
+}
+
+.back_to_main_page{
+    position:absolute;
+    top:480px;
+    left:630px;
+}
