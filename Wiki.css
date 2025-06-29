@@ -57,7 +57,7 @@ body{
     padding: 0;
 }
 
-  .nav li {
+.nav li {
     display: inline-block;
     font-size: 20px;
     padding: 20px;
@@ -84,19 +84,29 @@ body{
     color: white;
     font-size: 250%;
     position: absolute;
-    top: 140%;
+    top: 143%;
     left:14%;
+    
 }
 
 .text_box02{
     color: white;
     font-size: 250%;
     position: absolute;
-    top: 140%;
+    top: 143%;
     left: 47%;
 }
 
-  .background_image{
+.text_box03{
+    color: white;
+    font-size: 250%;
+    top: 143%;
+    left: 78%;
+    position: absolute;
+
+}
+
+.background_image{
     background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
@@ -120,7 +130,7 @@ body{
 .logo{
     position: fixed;
     top: 2%;
-    left: 33%;
+    left: 32%;
     opacity: 1;
     
 }
@@ -137,6 +147,11 @@ body{
     height: 85px;
     width: 1680px;
     opacity: 0.5;
+}
+
+.Small_logo{
+    position: fixed;
+    left:35%;
 }
 
 .Contact_button{
